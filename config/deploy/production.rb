@@ -14,7 +14,7 @@ set ssh_options: {
     keys: %w(/home/user_name/.ssh/sacsam),
     forward_agent: false,
     auth_methods: %w(publickey password),
-   
+    password: "sacsam123"
 }
 # role-based syntax
 # ==================
