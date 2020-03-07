@@ -40,7 +40,6 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem "zeitwerk","~> 2.3.0"
 
 gem "capistrano", "~> 3.12"
 gem "capistrano-rails", "~> 1.4"
